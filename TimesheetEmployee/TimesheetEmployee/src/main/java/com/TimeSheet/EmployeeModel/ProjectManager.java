@@ -277,11 +277,12 @@ public ProjectManager(int proj_id,
 		@NotEmpty @Size(max = 20, message = "Pe_client_emailid have atleast twocharacter upto 20 character") String proj_client_emailid,
 		@NotEmpty @Size(max = 20, message = "P_os_id have atleast twocharacter upto 20 character") String proj_os_id,
 		@NotEmpty @Size(max = 20, message = "P_db_id have atleast twocharacter upto 20 character") String proj_db_id,
-		@NotEmpty @Size(max = 20, message = "P_db_id have atleast twocharacter upto 20 character") String proj_app_server_id,
-		@NotEmpty @Size(max = 20, message = "P_db_id have atleast twocharacter upto 20 character") String proj_pm_name,
-		@NotEmpty @Size(max = 20, message = "P_db_id have atleast twocharacter upto 20 character") String proj_pl,
 		@NotEmpty @Size(max = 20, message = "P_db_id have atleast twocharacter upto 20 character") String proj_notes,
-		@NotEmpty @Size(max = 20, message = "P_db_id have atleast twocharacter upto 20 character") String status) {
+		@NotEmpty @Size(max = 20, message = "P_app_server_id have atleast twocharacter upto 20 character") String proj_app_server_id,
+		@NotEmpty @Size(max = 20, message = "Proj_pm_name have atleast twocharacter upto 20 character") String proj_pm_name,
+		@NotEmpty @Size(max = 20, message = "Proj_pl have atleast twocharacter upto 20 character") String proj_pl,
+		@NotEmpty @Size(max = 20, message = "Proj_notes have atleast twocharacter upto 20 character") String proj_notes,
+		@NotEmpty @Size(max = 20, message = "status have atleast twocharacter upto 20 character") String status) {
 	this.proj_id = proj_id;
 	this.proj_name = proj_name;
 	this.proj_client_name = proj_client_name;
