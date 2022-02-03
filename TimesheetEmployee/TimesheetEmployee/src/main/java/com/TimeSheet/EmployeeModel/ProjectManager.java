@@ -25,66 +25,66 @@ private String proj_name;
 
 @NotEmpty
 
-@Size(max=20,message="p_client name have atleast twocharacter upto 20 character")
+@Size(max=20,message="proj_client_name have atleast twocharacter upto 20 character")
 private String proj_client_name;
 
 @NotEmpty
 
-@Size(max=20,message="P_client_brief have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_client_brief have atleast twocharacter upto 20 character")
 private String proj_client_brief;
 
 @NotEmpty
 
-@Size(max=20,message="p_Client_manager have atleast twocharacter upto 20 character")
+@Size(max=20,message="proj_Client_manager have atleast twocharacter upto 20 character")
 private String proj_client_manager;
 
 @NotEmpty
 
-@Size(max=20,message="Pe_client_emailid have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_client_emailid have atleast twocharacter upto 20 character")
 private String proj_client_emailid;
 
 @NotEmpty
 
-@Size(max=20,message="P_os_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_os_id have atleast twocharacter upto 20 character")
 private String proj_os_id;
 
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_db_id have atleast twocharacter upto 20 character")
 private String proj_db_id;
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_app_server_id have atleast twocharacter upto 20 character")
 
 private String proj_app_server_id;
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_pm_name have atleast twocharacter upto 20 character")
 
 private String proj_pm_name;
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_pl have atleast twocharacter upto 20 character")
 
 private String proj_pl;
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_notes have atleast twocharacter upto 20 character")
 
 private String proj_notes;
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_start_date have atleast twocharacter upto 20 character")
 
 private Date proj_start_date;
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="Proj_end_date have atleast twocharacter upto 20 character")
 
 private Date proj_end_date;
 @NotEmpty
 
-@Size(max=20,message="P_db_id have atleast twocharacter upto 20 character")
+@Size(max=20,message="status have atleast twocharacter upto 20 character")
 
 private String status;
 /*
